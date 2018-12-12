@@ -1,15 +1,16 @@
 body
 {
-background-color: #DDDDDD;
+background-color: #D8DBE2;
 margin: 0;
+color: #D8DBE2; 
 }
 
 header
 {
-  background-color: #9B7F8C;
-  
+  background-color: #1B1B1E;
   padding: 40px;
   padding-bottom: 5px;
+  display: flex;
 }
 .top-empty
 {
@@ -29,10 +30,10 @@ header
 {     
   margin: 10px;
   margin-bottom: 10px;
-  width: 200px;
-  padding: 3px;
+  width: 210px;
+  padding: 0px;
   height: 300px;
-  background-color: #BAB6B7;
+  background-color: #373F51;
   text-align: center;
   box-shadow: 3px 3px 5px grey;
   position: relative;
@@ -51,6 +52,7 @@ ul
 {text-align: left;
 list-style-type: none;
 margin-left: -40px;
+flex:1;
 
 }
 
@@ -78,6 +80,7 @@ overflow: hidden;}
 #text-section
 { position: absolute;
   overflow-wrap: hidden;
+  margin-top: -20px;
 }
 
 p
@@ -106,19 +109,59 @@ padding: 2px;}
 }
 
 
-#web-text
-{
-  background-color: #FFFFF;
-}
+.web-text
+{}
 
 table
-{  padding: 5px;
-  text-align: left;
-  table-layout: fixed;
-  width: 100%;
+{margin-top: -40px;
+text-align: right;
+width: 100%;
 }
 
-th
+
+
+#text-info
+{text-align: left;
+margin: auto;
+font-size: 10px;
+margin-top: 5px;
+margin-left: -25px;}
+
+#logo-pic
 {
-  word-wrap: break-word
+  height: 15px;
+  width: 15px;
+}
+
+#options-menu
+{
+  display: inline-block;
+}
+h2
+{
+  font-size: 10px;
+}
+h3
+{
+  font-size: 10px;
+
+}
+
+#user-icon
+{
+  height: 15px;
+  width: 15px;
+}
+
+li div
+{
+   width: 100%;
+  height: 100%;
+  background-color: #B8C4D1;
+  color: black;
+  margin-left: -15px;
+  margin-right: -40px;
+  padding-left: 20px;
+  display: inline-flex;
+  padding-left: 5px;
 }
